@@ -1,0 +1,41 @@
+.issue-list-container {
+  width: 100%; 
+  margin: auto; 
+}
+
+.issue-order {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1px;
+  margin-bottom: 1px;
+}
+
+.issue-content {
+  width: 80%; 
+}
+
+#title {
+  font-size: 1.2rem; 
+}
+
+.issue-item p {
+  font-size: 1rem; 
+}
+
+.issue-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .issue-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .issue-item {
+    width: 100%; 
+  }
+}
